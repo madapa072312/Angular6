@@ -171,6 +171,60 @@ function(rej){
 
 Generators == uses a separate thread and return value sends to main thread (saga)
 
+=============================================
+
+
+
+Node Js
+provides js environment on top of V8 engine
+a. to write server side Js code
+b. Build rest apis
+c. Use it as environment to develop client side web application
+	Angular React Vue
+
+common things to do before production
+1. Transpile / compile
+2. Minify : remove all blank spaces
+3. Uglify : smaller names to fuctions nad variables
+4. Lint :
+5. run tests
+
+npm i -g typescript
+tsc --version
+
+-------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
