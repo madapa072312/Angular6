@@ -67,7 +67,7 @@ node --version
                 var a = 10;
                 if( g > a) {
                     var b = 20; // hoisted to function scope
-                    c = 30;
+                    c = 30;//hoisted to global scope
                 }
                 console.log(g,a,b,c);
 

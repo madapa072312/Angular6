@@ -194,13 +194,89 @@ tsc --version
 
 -------------------------
 
+Day 2:
+
+Webpack: 
+
+Class name and ts file name may or maynot be same
+if you use default in export the {} is not required while importing
+
+
+npm i ==> install the node_modules and dependencies
+npm run build-dev (get the parameter from package.json) ==> Builds and generates the bundle.js and index,html in dist folder (Again this is configuration)
+
+Type script Decorators:[similar to Annotations]
+
+========================
+Angular 9
+----------
+RWD - Responsive web design
+SPA - Single Page Application
+
+SPA will have only one html page and have many templates
+Challenges : 
+	SEO Search Engine Optimization
+	Browser History
+	Security
+		Guard to protect different URI access
+		XSS (Santize before rendering)
+	Dependency Injection
+To overcome challenges we have following library frameworks
+Angular ==> Google (Framework)
+React ==> Facebook (its a template library)
+Backbone (Framework)
+Vue ==>(its a template library)
+
+Ionic Angular ==> will coverts the web applications into mobile app
+
+----------------------
+
+npm i -g @angular/cli ==> to install cli globally (-g) in ng modules
+
+
+Angular Building Blocks
+Module
+Component
+Templates
+Services
+Router
+Guards
+Pipe
+Directives
+
+Component has Selector
+		templateURl
+		styleUrl
+	state and behaviour
+
+wire frimes
+
+Services 
+	Business logic has to implement
+	Interact with backend (RESTApi calls) - CRUD operations
+
+Router
+	Different URI and different views
+
+Modules
+	
+
+
+===========================================
+
+ng new customerapp  --> To create a Angular projects
+ng serve --> to build a angular project
+
+npm -i bootstarp font-awesome@4 ==> to get the 
 
 
 
 
 
 
+	
 
+	
 
 
 
