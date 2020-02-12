@@ -271,6 +271,41 @@ npm -i bootstarp font-awesome@4 ==> to get the
 
 
 
+================================================
+
+C:\Users\Trainee\HTML&CSS\angular
+
+npm i bootstrap font-awesome@4 --> install font awesome
+ng g component customer/customers --> to create the component
+
+
+ng<<Follwedby Any eg. ngFor>> - structural directives , if it has * then it can modify or removes the DOM
+#follwed by variable ==> template varaiable , visible only in the template
+============================== 
+Day3
+Lazy loading
+
+Service
+	To interact with rest services
+	Implement business logic
+	to share data between components
+
+use Observable rather than promise from angular4+
+
+spring boot flux or mono, we can use stream based observable
+----------------
+Observables of Angular is based on Observer design pattern
+
+
+subject  --->  Observers (1--M)
+
+observers register/subscripe to a subject
+when a change happed in the subject , it notify to the observers. So then can perform different activity
+=========================
+npm i -g json-server
+
+json-server --watch .\data.json --port 3000 ==> run it from the place where the json is available
+
 
 
 
